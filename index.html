@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Simple Navbar</title>
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link for Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+
+  <body>
+    <div>
+      <div class="navbar">
+        <h1 class="navbar-logo">Portfolio</h1>
+        <ul class="navbar-menu">
+          <li data-menu="resume">
+            <a
+              href="https://docs.google.com/document/d/1by-E0Ngod6WZErJKfHKZOcRvU6I9C-AnWi2y_N-rfkU/edit?usp=sharing"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li data-menu="about"><a href="#about-me">About Me</a></li>
+          <li data-menu="skills"><a href="#skills">Skills</a></li>
+          <li data-menu="contact"><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+
+      <!-- header for my name and animation of frontend developer in home page -->
+      <header id="home" class="header">
+        <h3>Hi , I am</h3>
+        <h2>JerinDas</h2>
+        <p id="role">I am Frontend Developer</p>
+        <br /><br /><br />
+        <div class="connect-with-me">
+          <h3>Connect With Me:</h3>
+          <div>
+            <a href="https://github.com/helloworld123488" target="_blank"
+              ><img src="assets/github.png" alt="GitHub"
+            /></a>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/jerin-undefined-b6788b405/"
+              target="_blank"
+              ><img src="assets/linkedin.png" alt="LinkedIn"
+            /></a>
+          </div>
+          <div>
+            <a
+              href="https://www.codechef.com/users/freedomcoder"
+              target="_blank"
+              ><img src="assets/codechef.png" alt="CodeChef"
+            /></a>
+          </div>
+        </div>
+        <button class="email-me">
+          <a href="mailto:jerindauntless@gmail.com">
+            <h3>Email Me</h3>
+          </a>
+        </button>
+      </header>
+
+      <!-- about me section -->
+      <div id="about-me" class="about-us">
+        <h1>About Me</h1>
+        <br /><br />
+        <p>
+          "I’m a frontend developer passionate about crafting intuitive,
+          responsive, and visually engaging web experiences. Skilled in HTML,
+          CSS, JavaScript, and modern frameworks like React, I enjoy turning
+          complex problems into elegant solutions that feel effortless to users.
+          I thrive on collaboration, clean code, and continuous learning—whether
+          it’s exploring new design trends or optimizing performance. Beyond
+          coding, I’m inspired by design, creativity, and the challenge of
+          making technology more human. My goal is to build digital experiences
+          that not only work seamlessly but also delight users."
+        </p>
+      </div>
+
+      <!-- skill section -->
+      <!-- adding id as skills to navigate from navigation bar -->
+      <div id="skills" class="skill-section">
+        <h1>Skills</h1>
+        <!-- adding br tag space between skills heading and using now: heading -->
+        <br /><br /><br />
+        <h2>Using now:</h2>
+        <div class="using-now">
+          <div class="using-now-img">
+            <img
+              src="./assets/figma.svg"
+              loading="lazy"
+              alt="Figma"
+              class="skill-img"
+            />
+            <p>Figma</p>
+          </div>
+          <div class="using-now-img">
+            <img
+              src="./assets/bootstrap.svg"
+              alt="Bootstrap"
+              class="skill-img"
+            />
+            <p>Bootstrap</p>
+          </div>
+          <div class="using-now-img">
+            <img src="./assets/git.svg" alt="Git" class="skill-img" />
+            <p>Git</p>
+          </div>
+          <div class="using-now-img">
+            <img src="./assets/react.svg" alt="React" class="skill-img" />
+            <p>React</p>
+          </div>
+          <div class="using-now-img">
+            <img src="./assets/html.svg" alt="HTML" class="skill-img" />
+            <p>HTML</p>
+          </div>
+          <div class="using-now-img">
+            <img src="./assets/css3.svg" alt="CSS" class="skill-img" />
+            <p>CSS</p>
+          </div>
+          <div class="using-now-img">
+            <img src="./assets/sass.svg" alt="SASS" class="skill-img" />
+            <p>SASS</p>
+          </div>
+          <div class="using-now-img">
+            <img
+              src="./assets/javascript.svg"
+              alt="JavaScript"
+              class="skill-img"
+            />
+            <p>JavaScript</p>
+          </div>
+          <div class="using-now-img">
+            <img src="./assets/postman.svg" alt="Postman" class="skill-img" />
+            <p>PostMan</p>
+          </div>
+          <div class="using-now-img">
+            <img src="./assets/mongodb.svg" alt="MongoDB" class="skill-img" />
+            <p>MongoDB</p>
+          </div>
+          <div class="using-now-img">
+            <img src="./assets/mysql.svg" alt="MySQL" class="skill-img" />
+            <p>MySQL</p>
+          </div>
+        </div>
+
+        <!-- end of using skill section -->
+
+        <br /><br /><br />
+        <h2>Learning now:</h2>
+        <div class="learning-now">
+          <div class="learning-now-img">
+            <img
+              src="./assets/nodejs.svg"
+              loading="lazy"
+              alt="Node.js"
+              class="skill-img-learning"
+            />
+            <p>Node JS</p>
+          </div>
+          <div class="learning-now-img">
+            <img
+              src="./assets/TypeScript.svg"
+              alt="TypeScript"
+              class="skill-img-learning"
+            />
+            <p>TypeScript</p>
+          </div>
+          <div class="learning-now-img">
+            <img
+              src="./assets/express.svg"
+              alt="Express"
+              class="skill-img-learning"
+            />
+            <p>Express JS</p>
+          </div>
+          <div class="learning-now-img">
+            <img
+              src="./assets/nextjs.svg"
+              alt="Next.js"
+              class="skill-img-learning"
+            />
+            <p>Next JS</p>
+          </div>
+          <div class="learning-now-img">
+            <img
+              src="./assets/tailwind-css.svg"
+              alt="Tailwind CSS"
+              class="skill-img-learning"
+            />
+            <p>TailWind CSS</p>
+          </div>
+          <div class="learning-now-img">
+            <img
+              src="./assets/mongoose.svg"
+              alt="Mongoose"
+              class="skill-img-learning"
+            />
+            <p>Mongoose</p>
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+      <!-- contact form section  -->
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form
+          action="mailto:yourname@example.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <!-- next contact details and footer section -->
+      <div class="contact-section">
+        <h5>Feel free to Contact with me</h5>
+        <p><i class="bi bi-telephone"></i> +91 9751 752 751</p>
+        <p><i class="bi bi-envelope"></i> jerindauntless@gmail.com</p>
+      </div>
+
+      <!-- footer section  -->
+      <!-- Footer -->
+      <!-- Footer -->
+      <footer>
+        <p>
+          &copy; 2026 JerinDas | Follow me on
+          <a href="https://www.instagram.com/jerin_dauntless/" target="_blank"
+            ><img src="./assets/instagram.svg" alt="Instagram"
+          /></a>
+          <a href="https://github.com/helloworld123488" target="_blank"
+            ><img src="./assets/github.png" alt="GitHub"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/jerin-undefined-b6788b405/"
+            target="_blank"
+            ><img src="./assets/linkedin.png" alt="LinkedIn"
+          /></a>
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      const menuItems = document.querySelectorAll(".navbar-menu li");
+
+      menuItems.forEach((item) => {
+        item.addEventListener("click", () => {
+          // remove active from all
+          menuItems.forEach((i) => i.classList.remove("active"));
+          // add active to clicked
+          item.classList.add("active");
+        });
+      });
+    </script>
+    <script src="02script.js"></script>
+  </body>
+</html>
